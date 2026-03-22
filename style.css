@@ -46,6 +46,7 @@ header{
 
 
 #category_image div{
+    margin-left: 20px;
     width: 41%;
     margin-right: 5px;
 }
@@ -68,7 +69,8 @@ header{
 }
 
 #best_selling div{
-    width: 47%;
+    width: 45%;
+    margin-left: 11px;
 }
 
 #best_selling img{
@@ -100,10 +102,10 @@ header{
     font-size: 25px;
 }
 
-#view{
-    text-align: center;
+#view button{
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 130px;
+    margin-right: 20px;
 }
 
 
@@ -125,7 +127,8 @@ header{
 }
 
 #indoor_plant div{
-    width: 47%;
+    margin-left: 15px;
+    width: 45%;
 }
 
 #indoor_plant img{
@@ -133,10 +136,9 @@ header{
     margin: 10px;
 }
 
-#view1{
-    text-align: center;
+#view1 button{
     margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 130px;
 }
 
 
@@ -162,7 +164,8 @@ header{
 }
 
 #Fruit_plant div{
-    width: 47%;
+    margin-left: 13px;
+    width: 45%;
 }
 
 #Fruit_plant img{
@@ -170,10 +173,9 @@ header{
     margin: 10px;
 }
 
-#view2{
-    text-align: center;
+#view2 button{
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 120px;
     margin-bottom: 30px;
 }
 
@@ -185,7 +187,7 @@ header{
 }
 
 #tips h5{
-    text-align: center;
+    margin-left: 10px;
     color: green;
 }
 
@@ -223,7 +225,7 @@ button{
 
 #why img{
     width: 80px;
-    margin-left: 120px;
+    margin-left: 150px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -295,7 +297,156 @@ button{
     margin-left: 30px;
 }
 
+#plant_one div{
+    width: 90%;
+}
 
+#plant_one img{
+    width: 85%;
+    margin-left: 45px;
+}
+
+#plant_head h1{
+    margin-left: 150px;
+}
+
+#plant_one h3{
+    text-align: center;
+    margin-left: 10px;
+}
+
+#plant_one h4{
+    margin-left: 150px;
+}
+
+#plant_one button{
+    margin-left: 130px;
+}
+
+#seeds_head h1{
+    text-align: center;
+}
+
+#seeds_one div{
+    width: 90%;
+    margin-left: 45px;
+}
+
+#seeds_one img{
+    width: 85%;
+}
+
+#seeds_one h4{
+    margin-left: 120px;
+}
+
+#seeds_one button{
+    margin-left: 90px;
+}
+
+#Favorite_head h1{
+    text-align: center;
+}
+
+#Favorite-one div{
+    width: 80%;
+    margin-left: 5px;
+}
+
+#Favorite_one img{
+    width: 40px;
+}
+
+#Favorite-one h3{
+    text-align: center;
+    margin-left: 30px;
+}
+
+#Favorite-one h4{
+    margin-left: 150PX;
+}
+
+#Favorite-one button{
+    margin-left: 130px;
+}
+
+#Trending_head h1{
+    text-align: center;
+}
+
+#Trending_one div{
+    width: 90%;
+}
+
+#Trending_one img{
+    width: 85%;
+    margin-left: 49px;
+}
+
+#Trending_one h3{
+    text-align: center;
+    margin-left: 20px;
+}
+
+#Trending_one h4{
+    margin-left: 150px;
+}
+
+#Trending_one button {
+    margin-left: 120px;
+}
+
+#Arrival_head h1{
+    text-align: center;
+}
+
+#Arrival_one div{
+    width: 90%;
+}
+
+#Arrival_one img{
+    width: 85%;
+    margin-left: 50px;
+}
+
+#Arrival_one h3{
+    text-align: center;
+    margin-left: 20px;
+}
+
+#Arrival_one h4{
+    margin-left: 150px;
+}
+
+#Arrival_one button{
+    margin-left: 130px;
+}
+
+#Creepers_head h1{
+    text-align: center;
+}
+
+#Creepers_one div{
+    width: 90%;
+}
+
+#Creepers_one img{
+    width: 85%;
+    margin-left: 45px;
+}
+
+#Creepers_one h3{
+    text-align: center;
+    margin-left: 45px;
+}
+
+#Creepers_one h4{
+    margin-left: 150px;
+}
+
+#Creepers_one button{
+    margin-left: 130px;
+}
 
 
 
@@ -343,6 +494,20 @@ button{
         align-items:center;
     }
 
+    #sub {
+        margin-left: 130px;
+        margin-top: -20px;
+    }
+
+    #social img{
+        width: 20px;
+    }
+
+    #social div{
+        width: 2%;
+        margin-left: 10px;
+    }
+
     #plant_head{
         text-align: center;
         margin-top: 20px;
@@ -356,8 +521,16 @@ button{
     }
 
     #plant_one div{
-        width: 32%;
-        margin-left: 20px;
+        width: 46%;
+        margin-left: 15px;
+    }
+
+    #plant_one h4{
+        margin-left: 150px;
+    }
+
+    #plant_one button{
+        margin-left: 120px;
     }
 
     #seeds_head{
@@ -373,8 +546,16 @@ button{
     }
 
     #seeds_one div{
-        width: 32%;
+        width: 46%;
         margin-left: 20px;
+    }
+
+    #seeds_one h4{
+        margin-left: 140px ;
+    }
+
+    #seeds_one button{
+        margin-left: 130px ;
     }
 
     #Favorite_head{
@@ -390,8 +571,16 @@ button{
     }
 
     #Favorite-one div{
-        width: 32%;
+        width: 46%;
         margin-left: 20px;
+    }
+
+    #Favorite-one h4{
+        margin-left: 140px;
+    }
+
+    #Favorite-one button{
+        margin-left: 120px;
     }
 
     #Trending_head{
@@ -407,8 +596,16 @@ button{
     }
 
     #Trending_one div{
-        width: 32%;
+        width: 46%;
         margin-left: 20px;
+    }
+
+    #Trending_one h4{
+        margin-left: 130px;
+    }
+
+    #Trending_one button{
+        margin-left: 120px;
     }
 
     #Arrival_head{
@@ -424,8 +621,16 @@ button{
     }
 
     #Arrival_one div{
-        width: 32%;
+        width: 46%;
         margin-left: 20px;
+    }
+
+    #Arrival_one h4{
+        margin-left: 130px;
+    }
+
+    #Arrival_one button{
+        margin-left: 120px;
     }
 
     #Creepers_head{
@@ -441,8 +646,16 @@ button{
     }
 
     #Creepers_one div{
-        width: 32%;
+        width: 46%;
         margin-left: 20px;
+    }
+
+    #Creepers_one h4{
+        margin-left: 130px;
+    }
+
+    #Creepers_one button{
+        margin-left: 130px;
     }
 
     #best_sell h2{
@@ -625,7 +838,7 @@ button{
 }
 
 #social div{
-    width: 23%;
+    width: 22%;
 }
 
 #final{
@@ -638,9 +851,24 @@ button{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width:1200px){
     #category_image div{
-    width: 16%;
+    width: 14%;
+
     }
 
     #best_selling div{
@@ -648,8 +876,12 @@ button{
     }
 
     #best_selling button{
-        margin-left: 100px;
+        margin-left: 150px;
         margin-right: 200px;
+    }
+
+    #best_sell h2{font-size: 50px;
+
     }
 
     #best_seeling h4{
@@ -657,11 +889,22 @@ button{
     }
 
     #view button{
-        margin-left: 550px;
+        margin-left: 690px;
     }
 
     #indoor_plant div{
         width: 23%;
+        justify-content: space-evenly;
+    }
+
+    #indoor_plant h3{
+        margin-right: 10px;
+    }
+
+    #indoor_plant h4{
+        text-align: justify;
+        margin-right: 50px;
+        margin-left: 130px;
     }
 
     #indoor_plant button{
@@ -669,16 +912,17 @@ button{
     }
 
     #view1 button{
-        margin-left: 550px;
+        margin-left: 680px;
     }
 
     #Fruit_plant div{
         width: 23%;
+        margin-left: 10px;
     }
 
     #Fruit_plant h4{
         margin-right: 150px;
-        margin-left: 100px;
+        margin-left: 150px;
     }
 
     #Fruit_plant button{
@@ -686,7 +930,7 @@ button{
     }
 
     #view2 button{
-        margin-left: 550px;
+        margin-left: 680px;
     }
 
     #plant_one{
@@ -696,5 +940,121 @@ button{
 
     #plant_one div{
         width: 29%;
+        margin-left: 40px;
+    }
+
+    #email {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 1px;
+        margin-right: 20px;
+    }
+
+    #sub {
+        margin-left: 130px;
+        margin-top: -40px;
+        margin-bottom: 20px;
+    }
+
+    #plant_head h1{
+        text-align: center;
+        margin-right: 75px;
+        margin-left: 50px;
+    }
+
+    #plant_one h3{
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #plant_one h4{
+        margin-left: 170px;
+    }
+
+    #plant_one button{
+        margin-left: 140px;
+        margin-bottom: 10px;
+    }
+
+    #seeds_one div{
+        width: 31%;
+        margin-left: 5px;
+    }
+
+    #seeds_one h3{
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+
+    #seeds_one h4{
+        margin-left: 150px;
+    }
+
+    #seeds_one button{
+        margin-left: 130px;
+        margin-bottom: 20px;
+    }
+
+    #Favorite-one div{
+        width: 31%;
+        margin-left: 15px;
+    }
+
+    #Favorite-one button{
+        margin-left: 100px;
+    }
+
+    #Favorite-one h3{
+        text-align: center;
+        margin-left: 1px;
+        margin-right: 80px ;
+    }
+
+    #Favorite-one h4{
+        margin-left: 130px;
+    }
+
+    #Trending_one div{
+        width: 31%;
+        margin-left: 15px;
+    }
+
+    #Trending_one h3{
+        text-align: center;
+    }
+
+    #Trending_one h4{
+        margin-left: 180px;
+    }
+
+    #Trending_one button{
+        margin-left: 160px;
+    }
+
+    #Arrival_one div{
+        width: 31%;
+        margin-left: 15px;
+    }
+
+    #Arrival_one h4{
+        margin-left: 170px;
+    }
+
+    #Arrival_one button{
+        margin-left: 160px;
+    }
+
+    #Creepers_one div{
+        width: 31%;
+        margin-left: 15px;
+    }
+
+    #Creepers_one h4{
+        margin-left: 185px;
+    }
+
+    #Creepers_one button{
+        margin-left: 170px;
     }
 }
